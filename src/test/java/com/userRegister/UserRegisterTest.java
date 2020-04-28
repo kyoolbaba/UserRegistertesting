@@ -9,7 +9,12 @@ private UserRegister userRegister;
     @Test
     public void firstNameTesting() {
     boolean condition=userRegister.checkFirstName("Milan");
-        System.out.println(condition);
+        Assert.assertTrue(condition);
+    }
+
+    @Test
+    public void secondNameTesting() {
+        boolean condition=userRegister.checkSecondName("Gowda");
         Assert.assertTrue(condition);
     }
 

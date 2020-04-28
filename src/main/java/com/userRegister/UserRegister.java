@@ -10,4 +10,10 @@ public class UserRegister {
         Matcher matcher= pattern.matcher(firstName);
         return matcher.matches();
     }
+
+    public boolean checkSecondName(String secondName) {
+        Pattern pattern= Pattern.compile("[A-Z][a-z]{2,}");
+        Matcher matcher= pattern.matcher(secondName);
+        return matcher.matches();
+    }
 }
