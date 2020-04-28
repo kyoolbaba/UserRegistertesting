@@ -18,6 +18,12 @@ private UserRegister userRegister;
         Assert.assertTrue(condition);
     }
 
+    @Test
+    public void validateEmailTesting() {
+        boolean condition=userRegister.checkEmailID("milan.gowda.adb@gmail.co.in");
+        Assert.assertTrue(condition);
+    }
+
     @Before
     public void setUp() throws Exception {
         userRegister = new UserRegister();

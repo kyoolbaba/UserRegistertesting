@@ -16,4 +16,10 @@ public class UserRegister {
         Matcher matcher= pattern.matcher(lastName);
         return matcher.matches();
     }
+
+    public boolean checkEmailID(String emailID) {
+        Pattern pattern= Pattern.compile("^[a-zA-Z0-9]+([.-_+])?[a-zA-Z0-9.-_=+]*@[a-zA-Z]+.[a-z]{2,4}(.[a-z]{2})?$");
+        Matcher matcher= pattern.matcher(emailID);
+        return matcher.matches();
+    }
 }
