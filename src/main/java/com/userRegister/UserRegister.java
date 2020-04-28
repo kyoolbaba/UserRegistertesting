@@ -1,5 +1,7 @@
 package com.userRegister;
 
+import com.sun.org.apache.xerces.internal.impl.xpath.regex.Match;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -31,8 +33,14 @@ public class UserRegister {
     }
 
     public boolean validatePassword(String password) {
+        int NO_OF_SPECIAL_CHARACTER=0;
         Pattern pattern= Pattern.compile("(?=.*[A-Z])(?=.*[0-9])[A-z0-9]{8,}");
         Matcher matcher= pattern.matcher(password);
-        return matcher.matches();
+        Pattern pattern1=Pattern.compile("[!@#$%^&*]");
+        Matcher matcher1=pattern1.matcher(password);
+        while(matcher1.find()){
+            NO_OF_SPECIAL_CHARACTER++;
+        }
+        return NO_OF_SPECIAL_CHARACTER==1;
     }
 }
