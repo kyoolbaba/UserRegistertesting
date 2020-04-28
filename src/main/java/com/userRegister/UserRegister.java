@@ -18,8 +18,15 @@ public class UserRegister {
     }
 
     public boolean checkEmailID(String emailID) {
-        Pattern pattern= Pattern.compile("^[a-zA-Z0-9]+([.-_+])?[a-zA-Z0-9.-_=+]*@[a-zA-Z]+.[a-z]{2,4}(.[a-z]{2})?$");
+        Pattern pattern= Pattern.compile("^[a-zA-Z0-9]+([.-_+])?[a-zA-Z0-9.-_=+]" +
+                                          "*@[a-zA-Z]+.[a-z]{2,4}(.[a-z]{2})?$");
         Matcher matcher= pattern.matcher(emailID);
+        return matcher.matches();
+    }
+
+    public boolean validateMobile(String mobile) {
+        Pattern pattern= Pattern.compile("^((\\+)?91|0)?[6-9][0-9]{9}$");
+        Matcher matcher= pattern.matcher(mobile);
         return matcher.matches();
     }
 }

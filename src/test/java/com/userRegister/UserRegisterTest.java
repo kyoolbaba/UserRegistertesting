@@ -24,6 +24,12 @@ private UserRegister userRegister;
         Assert.assertTrue(condition);
     }
 
+    @Test
+    public void validateMobileTesting() {
+    boolean condition=userRegister.validateMobile("07760987606");
+    Assert.assertTrue(condition);
+    }
+
     @Before
     public void setUp() throws Exception {
         userRegister = new UserRegister();

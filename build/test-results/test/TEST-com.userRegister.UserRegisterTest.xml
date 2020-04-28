@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.userRegister.UserRegisterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-04-28T13:24:21" hostname="KYOOLBABA" time="0.004">
+<testsuite name="com.userRegister.UserRegisterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-28T13:43:02" hostname="KYOOLBABA" time="0.002">
   <properties/>
-  <testcase name="firstNameTesting" classname="com.userRegister.UserRegisterTest" time="0.002"/>
-  <testcase name="validateEmailTesting" classname="com.userRegister.UserRegisterTest" time="0.002"/>
-  <testcase name="lastNameTesting" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="validateMobileTesting" classname="com.userRegister.UserRegisterTest" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
