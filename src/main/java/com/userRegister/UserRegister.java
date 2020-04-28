@@ -29,4 +29,10 @@ public class UserRegister {
         Matcher matcher= pattern.matcher(mobile);
         return matcher.matches();
     }
+
+    public boolean validatePassword(String password) {
+        Pattern pattern= Pattern.compile("[A-z0-9]{8,}");
+        Matcher matcher= pattern.matcher(password);
+        return matcher.matches();
+    }
 }

@@ -30,6 +30,12 @@ private UserRegister userRegister;
     Assert.assertTrue(condition);
     }
 
+    @Test
+    public void validatePassword() {
+    boolean condition=userRegister.validatePassword("milangowda123");
+    Assert.assertTrue(condition);
+    }
+
     @Before
     public void setUp() throws Exception {
         userRegister = new UserRegister();
