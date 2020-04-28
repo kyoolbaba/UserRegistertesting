@@ -32,7 +32,7 @@ private UserRegister userRegister;
 
     @Test
     public void validatePassword() {
-    boolean condition=userRegister.validatePassword("milanGowda123");
+    boolean condition=userRegister.validatePassword("milanGowdasjs0");
     Assert.assertTrue(condition);
     }
 
