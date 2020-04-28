@@ -13,8 +13,8 @@ private UserRegister userRegister;
     }
 
     @Test
-    public void secondNameTesting() {
-        boolean condition=userRegister.checkSecondName("Gowda");
+    public void lastNameTesting() {
+        boolean condition=userRegister.checkLastName("Gowda");
         Assert.assertTrue(condition);
     }
 

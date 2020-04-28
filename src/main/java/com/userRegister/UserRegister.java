@@ -11,9 +11,9 @@ public class UserRegister {
         return matcher.matches();
     }
 
-    public boolean checkSecondName(String secondName) {
+    public boolean checkLastName(String lastName) {
         Pattern pattern= Pattern.compile("[A-Z][a-z]{2,}");
-        Matcher matcher= pattern.matcher(secondName);
+        Matcher matcher= pattern.matcher(lastName);
         return matcher.matches();
     }
 }
