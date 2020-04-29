@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.userRegister.UserRegisterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-04-28T18:58:06" hostname="KYOOLBABA" time="0.002">
+<testsuite name="com.userRegister.UserRegisterTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-04-29T01:44:14" hostname="KYOOLBABA" time="0.011">
   <properties/>
-  <testcase name="validatePassword" classname="com.userRegister.UserRegisterTest" time="0.002"/>
+  <testcase name="positiveValidateMobileTesting" classname="com.userRegister.UserRegisterTest" time="0.003"/>
+  <testcase name="negativeValidateEmailTesting" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeLastNameTesting" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveValidateEmailTesting" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeFirstNameTesting" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidatePassword" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateMobileTesting" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting" classname="com.userRegister.UserRegisterTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
