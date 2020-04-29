@@ -1,16 +1,282 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.userRegister.UserRegisterTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-04-29T01:44:14" hostname="KYOOLBABA" time="0.011">
+<testsuite name="com.userRegister.UserRegisterTest" tests="253" skipped="0" failures="0" errors="0" timestamp="2020-04-29T08:48:57" hostname="KYOOLBABA" time="0.189">
   <properties/>
-  <testcase name="positiveValidateMobileTesting" classname="com.userRegister.UserRegisterTest" time="0.003"/>
-  <testcase name="negativeValidateEmailTesting" classname="com.userRegister.UserRegisterTest" time="0.0"/>
-  <testcase name="positiveFirstNameTesting" classname="com.userRegister.UserRegisterTest" time="0.0"/>
-  <testcase name="positiveValidatePassword" classname="com.userRegister.UserRegisterTest" time="0.001"/>
-  <testcase name="negativeLastNameTesting" classname="com.userRegister.UserRegisterTest" time="0.001"/>
-  <testcase name="positiveValidateEmailTesting" classname="com.userRegister.UserRegisterTest" time="0.0"/>
-  <testcase name="negativeFirstNameTesting" classname="com.userRegister.UserRegisterTest" time="0.001"/>
-  <testcase name="negativeValidatePassword" classname="com.userRegister.UserRegisterTest" time="0.0"/>
-  <testcase name="negativeValidateMobileTesting" classname="com.userRegister.UserRegisterTest" time="0.0"/>
-  <testcase name="positiveLastNameTesting" classname="com.userRegister.UserRegisterTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="positiveValidateMobileTesting[0]" classname="com.userRegister.UserRegisterTest" time="0.002"/>
+  <testcase name="negativeValidateEmailTesting[0]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting[0]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword[0]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="emailTesting[0]" classname="com.userRegister.UserRegisterTest" time="0.005"/>
+  <testcase name="negativeLastNameTesting[0]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[0]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeFirstNameTesting[0]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[0]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateMobileTesting[0]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveLastNameTesting[0]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[1]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateEmailTesting[1]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting[1]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveValidatePassword[1]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="emailTesting[1]" classname="com.userRegister.UserRegisterTest" time="0.004"/>
+  <testcase name="negativeLastNameTesting[1]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[1]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeFirstNameTesting[1]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidatePassword[1]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateMobileTesting[1]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[1]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[2]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidateEmailTesting[2]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting[2]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword[2]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="emailTesting[2]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeLastNameTesting[2]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[2]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeFirstNameTesting[2]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[2]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateMobileTesting[2]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[2]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[3]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateEmailTesting[3]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting[3]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveValidatePassword[3]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="emailTesting[3]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeLastNameTesting[3]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveValidateEmailTesting[3]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeFirstNameTesting[3]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[3]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateMobileTesting[3]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[3]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[4]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateEmailTesting[4]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting[4]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword[4]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="emailTesting[4]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeLastNameTesting[4]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[4]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeFirstNameTesting[4]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[4]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateMobileTesting[4]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[4]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[5]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateEmailTesting[5]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting[5]" classname="com.userRegister.UserRegisterTest" time="0.027"/>
+  <testcase name="positiveValidatePassword[5]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="emailTesting[5]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeLastNameTesting[5]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[5]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeFirstNameTesting[5]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[5]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateMobileTesting[5]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[5]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveValidateMobileTesting[6]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateEmailTesting[6]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting[6]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword[6]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="emailTesting[6]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeLastNameTesting[6]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[6]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeFirstNameTesting[6]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[6]" classname="com.userRegister.UserRegisterTest" time="0.007"/>
+  <testcase name="negativeValidateMobileTesting[6]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[6]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[7]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateEmailTesting[7]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveFirstNameTesting[7]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword[7]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="emailTesting[7]" classname="com.userRegister.UserRegisterTest" time="0.004"/>
+  <testcase name="negativeLastNameTesting[7]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[7]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeFirstNameTesting[7]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidatePassword[7]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateMobileTesting[7]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[7]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[8]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidateEmailTesting[8]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting[8]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword[8]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="emailTesting[8]" classname="com.userRegister.UserRegisterTest" time="0.003"/>
+  <testcase name="negativeLastNameTesting[8]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[8]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeFirstNameTesting[8]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[8]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateMobileTesting[8]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[8]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveValidateMobileTesting[9]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateEmailTesting[9]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveFirstNameTesting[9]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword[9]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="emailTesting[9]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeLastNameTesting[9]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[9]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeFirstNameTesting[9]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[9]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateMobileTesting[9]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveLastNameTesting[9]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[10]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateEmailTesting[10]" classname="com.userRegister.UserRegisterTest" time="0.002"/>
+  <testcase name="positiveFirstNameTesting[10]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveValidatePassword[10]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="emailTesting[10]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeLastNameTesting[10]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[10]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeFirstNameTesting[10]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[10]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidateMobileTesting[10]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[10]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[11]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidateEmailTesting[11]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting[11]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword[11]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="emailTesting[11]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeLastNameTesting[11]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[11]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeFirstNameTesting[11]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[11]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidateMobileTesting[11]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[11]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveValidateMobileTesting[12]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateEmailTesting[12]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting[12]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword[12]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="emailTesting[12]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeLastNameTesting[12]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[12]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeFirstNameTesting[12]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[12]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateMobileTesting[12]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[12]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[13]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateEmailTesting[13]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting[13]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword[13]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="emailTesting[13]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeLastNameTesting[13]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[13]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeFirstNameTesting[13]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[13]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidateMobileTesting[13]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[13]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[14]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateEmailTesting[14]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting[14]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword[14]" classname="com.userRegister.UserRegisterTest" time="0.002"/>
+  <testcase name="emailTesting[14]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeLastNameTesting[14]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[14]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeFirstNameTesting[14]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[14]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateMobileTesting[14]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[14]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[15]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidateEmailTesting[15]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveFirstNameTesting[15]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveValidatePassword[15]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="emailTesting[15]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeLastNameTesting[15]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveValidateEmailTesting[15]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeFirstNameTesting[15]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidatePassword[15]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidateMobileTesting[15]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[15]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveValidateMobileTesting[16]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateEmailTesting[16]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting[16]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword[16]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="emailTesting[16]" classname="com.userRegister.UserRegisterTest" time="0.008"/>
+  <testcase name="negativeLastNameTesting[16]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[16]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeFirstNameTesting[16]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[16]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidateMobileTesting[16]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[16]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[17]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidateEmailTesting[17]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting[17]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveValidatePassword[17]" classname="com.userRegister.UserRegisterTest" time="0.002"/>
+  <testcase name="emailTesting[17]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeLastNameTesting[17]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[17]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeFirstNameTesting[17]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidatePassword[17]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateMobileTesting[17]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[17]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[18]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateEmailTesting[18]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting[18]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword[18]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="emailTesting[18]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeLastNameTesting[18]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[18]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeFirstNameTesting[18]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[18]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateMobileTesting[18]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[18]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[19]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateEmailTesting[19]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting[19]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword[19]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="emailTesting[19]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeLastNameTesting[19]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveValidateEmailTesting[19]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeFirstNameTesting[19]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[19]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateMobileTesting[19]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[19]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[20]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateEmailTesting[20]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveFirstNameTesting[20]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword[20]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="emailTesting[20]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeLastNameTesting[20]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[20]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeFirstNameTesting[20]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidatePassword[20]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidateMobileTesting[20]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[20]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[21]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateEmailTesting[21]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveFirstNameTesting[21]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword[21]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="emailTesting[21]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeLastNameTesting[21]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[21]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeFirstNameTesting[21]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[21]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateMobileTesting[21]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[21]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateMobileTesting[22]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidateEmailTesting[22]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="positiveFirstNameTesting[22]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidatePassword[22]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="emailTesting[22]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeLastNameTesting[22]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveValidateEmailTesting[22]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeFirstNameTesting[22]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="negativeValidatePassword[22]" classname="com.userRegister.UserRegisterTest" time="0.001"/>
+  <testcase name="negativeValidateMobileTesting[22]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <testcase name="positiveLastNameTesting[22]" classname="com.userRegister.UserRegisterTest" time="0.0"/>
+  <system-out><![CDATA[true and true
+true and true
+true and true
+true and true
+true and true
+true and true
+true and true
+true and true
+true and true
+true and true
+false and false
+false and false
+false and false
+false and false
+false and false
+false and false
+false and false
+false and false
+false and false
+false and false
+false and false
+false and false
+false and false
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

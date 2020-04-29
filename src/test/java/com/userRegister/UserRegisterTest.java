@@ -3,9 +3,45 @@ package com.userRegister;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
 
+import java.util.Arrays;
+import java.util.Collection;
+
+@RunWith(Parameterized.class)
 public class UserRegisterTest {
-private UserRegister userRegister;
+    private String email;
+    private boolean emailStatus;
+    private UserRegister userRegister;
+public UserRegisterTest(String email, boolean emailStatus) {
+this.email = email;
+this.emailStatus=emailStatus;
+}
+
+    @Parameterized.Parameters
+    public static Collection input() {
+        return Arrays.asList(new Object[][]{{"abc@yahoo.com",true},{"abc-100@yahoo.com",true},
+                {"abc.100@yahoo.com",true},{"abc111@abc.com",true},
+                {"abc-100@abc.net",true},{"abc-100@abc.net",true} ,
+                {"abc.100@abc.com.au",true},{"abc@1.com",true},
+                {"abc@gmail.com.com",true},{"abc+100@gmail.com",true},
+                {"abc",false},{"abc@.com.my",false},
+                {"abc123@gmail.a",false},{"abc123@.com",false},
+                {"abc123@.comcom",false},{".abc@abc.com",false},
+                {"abc()*@gmail.com",false},{"abc@%*.com",false},
+                {"abc...2002@gmail.com",false},{"abc.gmail.com",false},
+                {"abc.@abcgmail.com",false},{"abc@gmail.com.1a",false},
+                {"abc@gmail.com.aa.au",false} });
+    }
+
+    @Test
+    public void emailTesting() {
+    boolean condition=userRegister.checkEmailID(email);
+        System.out.println(condition+" and "+emailStatus);
+        Assert.assertEquals(emailStatus,userRegister.checkEmailID(email));
+    }
+
     @Test
     public void positiveFirstNameTesting() {
     boolean condition=userRegister.checkFirstName("Milan");
@@ -29,7 +65,7 @@ private UserRegister userRegister;
 
     @Test
     public void positiveValidateEmailTesting() {
-        boolean condition=userRegister.checkEmailID("milan.gowda.adb@gmail.co.in");
+        boolean condition=userRegister.checkEmailID("milan.gowdadb@gmail.co.in");
         Assert.assertTrue(condition);
     }
     @Test
@@ -56,7 +92,7 @@ private UserRegister userRegister;
     }
     @Test
     public void negativeValidatePassword() {
-        boolean condition=userRegister.validatePassword("milanGowdasjs0");
+        boolean condition=userRegister.validatePassword("milanGowdasj*(s0");
         Assert.assertFalse(condition);
     }
 

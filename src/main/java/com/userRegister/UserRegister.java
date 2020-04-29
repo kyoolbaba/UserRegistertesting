@@ -4,7 +4,6 @@ import com.sun.org.apache.xerces.internal.impl.xpath.regex.Match;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 public class UserRegister {
 
     public boolean checkFirstName(String firstName) {
@@ -20,8 +19,8 @@ public class UserRegister {
     }
 
     public boolean checkEmailID(String emailID) {
-        Pattern pattern= Pattern.compile("^[a-zA-Z0-9]+([.-_+])?[a-zA-Z0-9.-_=+]" +
-                                          "*@[a-zA-Z]+.[a-z]{2,4}(.[a-z]{2})?$");
+        Pattern pattern= Pattern.compile("^[a-zA-Z0-9]+([.'-_+][a-zA-Z0-9-_=+]" +
+                                          "+)?@[a-zA-Z0-9]+[.][a-z]{2,4}(.[a-z]{2,3})?$");
         Matcher matcher= pattern.matcher(emailID);
         return matcher.matches();
     }
@@ -36,7 +35,7 @@ public class UserRegister {
         int NO_OF_SPECIAL_CHARACTER=0;
         Pattern pattern= Pattern.compile("(?=.*[A-Z])(?=.*[0-9])[A-z0-9]{8,}");
         Matcher matcher= pattern.matcher(password);
-        Pattern pattern1=Pattern.compile("[!@#$%^&*]");
+        Pattern pattern1=Pattern.compile("[!@#$%^&*()]");
         Matcher matcher1=pattern1.matcher(password);
         while(matcher1.find()){
             NO_OF_SPECIAL_CHARACTER++;
