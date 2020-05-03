@@ -8,7 +8,7 @@ public class UserRegisterTest {
 private UserRegister userRegister;
     @Test
     public void positiveFirstNameTesting() {
-    boolean condition=userRegister.checkFirstName("Milan");
+        boolean condition=userRegister.checkFirstName("Milan");
         Assert.assertTrue(condition);
     }
     @Test
@@ -40,8 +40,8 @@ private UserRegister userRegister;
 
     @Test
     public void positiveValidateMobileTesting() {
-    boolean condition=userRegister.validateMobile("07760987606");
-    Assert.assertTrue(condition);
+        boolean condition=userRegister.validateMobile("07760987606");
+        Assert.assertTrue(condition);
     }
     @Test
     public void negativeValidateMobileTesting() {
@@ -51,8 +51,8 @@ private UserRegister userRegister;
 
     @Test
     public void positiveValidatePassword() {
-    boolean condition=userRegister.validatePassword("mil$anGowdasjs0");
-    Assert.assertTrue(condition);
+        boolean condition=userRegister.validatePassword("mil$anGowdasjs0");
+        Assert.assertTrue(condition);
     }
     @Test
     public void negativeValidatePassword() {
